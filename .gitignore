@@ -1,0 +1,18 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+models/*.joblib
+models/*.json
+.pytest_cache/
+
+# Generated prediction outputs
+my_predictions.csv
+predictions_output.csv
+
+# Local IDE and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
